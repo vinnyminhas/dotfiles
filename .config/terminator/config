@@ -1,0 +1,31 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#161725"
+    cursor_color = "#ffffff"
+    font = Menlo 12
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    palette = "#161725:#f60055:#06c993:#9700be:#f69154:#ec89cb:#60adec:#abb2bf:#959dcb:#f60055:#06c993:#9700be:#f69154:#ec89cb:#00dded:#ffffff"
+    use_system_font = False
+  [[sweet]]
+    background_color = "#222235"
+    cursor_color = "#ffffff"
+    font = Menlo 12
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    palette = "#3f3f54:#f60055:#06c993:#9700be:#f69154:#ec89cb:#60adec:#abb2bf:#959dcb:#f60055:#06c993:#9700be:#f69154:#ec89cb:#00dded:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
